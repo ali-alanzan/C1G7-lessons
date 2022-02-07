@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello FROM HTML</h1>
+
+    <ul id="main_menu" class="submenu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+
+        <li class="darkColor submenu">Item
+            <ul class=""> <!-- the closest ul had the class list for the level3Item id -->
+                <li>Home</li>
+                <li>About</li>
+                <li class="darkColor">Contact</li>
+                <li>Information</li>
+                <li class="darkColor">Item
+                    <ul class="">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li class="darkColor">Contact</li>
+                        <li>Information</li>
+                        <li class="darkColor" id="level3Item">
+                        
+                            Item
+                        
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Information</li>
+        <li class="darkColor" data-color="blue">Item</li>
+        <li>Home</li>
+        <li>About</li>
+        <li class="darkColor" data-color="blue">Contact</li>
+        <li>Information</li>
+        <li class="darkColor" data-color="#333">Item</li>
+    </ul>
+
+
+
+    <div style="margin-top: 800px;"> 
+        Div in the Bottom 
+        
+        <button id="backToTop"> Back to top </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
