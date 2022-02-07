@@ -1,0 +1,22 @@
+img {
+    border: 10px solid green;
+}
+
+a {
+    margin: 10px; /* All directions */
+    margin: 100px 3px; /* 100px: top & bottom
+                            3px: right & left */
+
+    margin: 20px 10px 20px 20px; /* top right bottom left */
+
+    border: 2px solid #000;
+
+    padding: 10px; /* All directions */
+    padding: 10px 20px; /* 10px: top & bottom
+                            20px: right & left */
+
+    padding: 20px 10px 20px 20px; /* top right bottom left */
+
+
+    display: block;
+}

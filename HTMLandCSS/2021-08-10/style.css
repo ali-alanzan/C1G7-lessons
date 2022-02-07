@@ -1,0 +1,141 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blueColor: #0000ff96;
+}
+
+header {
+    padding: 20px 0 10px 0;
+    float: left;
+    width: 100%;
+    background-color: rgb(29 109 76 / 35%);
+    position: absolute;
+    z-index: 101;
+}
+
+header > div, 
+header > nav, 
+header > .search {
+    float: left;
+}
+
+header nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: purple;
+    border: 1px solid #fff;
+    border-radius: 10px 0 5px 12px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .search {
+    float: right;
+    margin-right: 30px;
+}
+
+header .search input {
+    border: none;
+    height: 25px;
+    float: left;
+}
+
+header .search input[type="text"] {
+    padding: 6px 15px;
+    font-size: 16px;
+}
+header .search input#search:focus {
+    outline: none;
+    box-shadow: -1px 0 4px #0000ff96;
+}
+
+
+header .search input[type="submit"] {
+    width: 60px;
+    border: 1px solid #124458;
+    height: 28px;
+    margin-top: -1px;
+}
+
+header h1 {
+    margin-left: 30px;
+    opacity: .4;
+    cursor: pointer;
+}
+
+
+header .logo h1 {position: relative;}
+
+header .logo h1:after {
+    content: "";
+    height: .1px;
+    width: 100%;
+    border: 1px solid var(--blueColor);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: all 1s .2s ease-in-out;
+}
+
+header h1:hover {
+    opacity: 1;
+    color: var(--blueColor);
+}
+
+
+header h1:hover:after {
+    bottom: -8px;
+}
+
+.hero {
+    float: left;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100vh;
+}
+
+.hero .background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer {
+    width: 100%;
+    float: left;
+    background-color: gray;
+    padding: 20px 0;
+}
+
+footer ul {
+    padding-left: 10%;
+}
+
+footer ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+footer ul li:before {
+    content: "|";
+    margin-right: 15px;
+}
+
+footer ul li:first-of-type:before {
+    content: none;
+}

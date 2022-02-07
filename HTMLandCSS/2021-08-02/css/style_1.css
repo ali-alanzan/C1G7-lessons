@@ -1,0 +1,32 @@
+/**
+div > p : select p tags directly within the div element
+.class-name : select the element by the class name
+
+*/
+
+.images-gallery > img {
+    float: left;
+    margin: 20px 10px;
+    border: 10px solid #f00;
+    display: block;
+    max-width: 200px;
+    clear: both;
+}
+
+#bigSizeImage {
+    border-radius: 50%;
+}
+
+img:first-of-type {
+    border: 10px solid #000;
+}
+
+img:nth-of-type(3) {
+    border: 10px solid rgb(12, 221, 81);
+}
+
+img:last-of-type {
+    border: 10px solid rgb(251, 255, 0);
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form > * {
+            width: 50%;
+            margin: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <form action=""  enctype="multipart/form-data" novalidate>
+        <input type="email" name="email" placeholder="Your E-mail" required>
+        <input type="password" name="password" placeholder="Your Password" autofocus>
+        
+        <input type="number" name="experience_year" placeholder="Experience Year">
+
+
+        <textarea rows="5" cols="20" style="width: initial;"></textarea>
+
+
+        <div>
+            <label for="">Upload file</label>
+            <input type="file" name="portfolio_image">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <h4>Skills</h4>
+            <label for="">
+                HTML5
+                <input type="checkbox" name="skills[]" value="html">
+            </label>     
+
+            <label for="">
+                CSS3
+                <input type="checkbox" name="skills[]" value="css">
+            </label>     
+
+            <label for="">
+                JavaScript
+                <input type="checkbox" name="skills[]" value="Javascript">
+            </label>     
+        </div>   
+
+        <div>
+            <h4>Language</h4>
+            <label for="lang_1">
+                English
+                <input type="radio" id="lang_1" name="language" value="en">
+            </label>     
+
+            <label for="">
+                Arabic
+                <input type="radio" name="language" value="Arabic">
+            </label>     
+
+            <label for="">
+                Norwegin
+                <input type="radio" name="language" value="Norwegin">
+            </label>     
+        </div>   
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>

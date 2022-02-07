@@ -1,0 +1,147 @@
+/**
+* div > p : >: select p tags directly within the div element
+* .class-name : select the element by the class name
+* space, div img : the space will select all the images inside the div element
+
+*/
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header {
+    background-color: #4e4747;
+}
+div, header {
+    width: 100%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    background-color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+
+header > .logo {
+    float: left;
+    max-width: 30%;
+}
+
+header > nav {
+    width: 70%;
+    float: left;
+}
+
+header > nav ul {
+    list-style-type: none;
+}
+
+header > nav > ul > li {
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+header > nav a {
+    color: rgb(169 116 116);
+}
+
+header > nav > ul > li ul {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+}
+header > nav > ul > li:hover ul {
+    display: block;
+}
+
+
+header > nav > ul > li ul > li {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+
+section {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section img {
+    border: 3px solid orange;
+}
+
+.products-section > div {
+    width: 20%;
+    margin: 0 20px;
+}
+
+.products-section > div > div:first-of-type {
+    width: 100%;
+}
+
+.products-section > div > div:first-of-type img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+.products-section > div > div:last-of-type p {
+    text-align: center;
+    width: 100%;
+}
+
+.news-section > div > div:first-of-type {
+    width: 20%;
+}
+.news-section > div > div:last-of-type {
+    width: 80%;
+}
+
+.news-section > .reverse-elements > div,
+.news-section > .reverse-elements p
+{
+    float: right;
+}
+
+.news-section p {
+    padding-top: 20px;
+}
+
+
+.news-section > .reverse-elements p
+{
+    padding-right: 20px;
+}
+
+.news-section img {
+    max-width: 100%;
+}
+
+
+div > img, 
+div > p {
+   float: left;
+   display: block;
+}
+
+div > p {
+    width: 80%;
+}
+
+

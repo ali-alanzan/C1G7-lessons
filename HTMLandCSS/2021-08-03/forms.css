@@ -1,0 +1,22 @@
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 40px auto;
+    padding-left: 40px;
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+input, textarea {
+    padding: 10px;
+    font-family: system-ui, serif;
+}
+
+label {
+    font-family: 'Style Script', cursive, system-ui, serif;
+}
