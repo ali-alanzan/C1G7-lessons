@@ -14,4 +14,6 @@
 * [2022-02-14](https://github.com/ali-alanzan/C1G7-lessons/tree/main/JavaScript/2022-02-14)
 * [2022-02-16](https://github.com/ali-alanzan/C1G7-lessons/tree/main/JavaScript/2022-02-16)
 * [2022-02-21](https://github.com/ali-alanzan/C1G7-lessons/tree/main/JavaScript/2022-02-21)
-
+* Starting Events
+* [2022-02-24](https://github.com/ali-alanzan/C1G7-lessons/tree/main/JavaScript/2022-02-24)
+* [2022-03-01](https://github.com/ali-alanzan/C1G7-lessons/tree/main/JavaScript/2022-03-01)
