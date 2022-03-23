@@ -1,0 +1,20 @@
+{
+    "firstName": "Ali",
+    "lastName": "Ali Alanzan",
+    "skills": [
+        "HTML5", 
+        "Javascript",
+        "SASS"
+    ],
+    "age": 25,
+    "marriage": false,
+    "children": null,
+    "grades": {
+        "math": "90%",
+        "physics": "80%",
+        "testArray": [
+            "123",
+            "123"
+        ]
+    }
+}
